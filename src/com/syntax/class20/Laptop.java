@@ -1,0 +1,8 @@
+package com.syntax.class20;
+
+public class Laptop {
+    int storage=512;;
+    int RAM=32;
+   protected String make;
+    String model;
+}
