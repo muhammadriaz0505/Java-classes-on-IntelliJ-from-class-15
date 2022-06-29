@@ -1,0 +1,23 @@
+What is polyMorphism:
+ polyMorphism is the ability of a method to behave differently depending upon the object or parameters that we pass
+ to a method.
+ When we pass different parameters to a method and it behaves differently then it is called.
+ static PolyMorphism or compile time PolyMorphism or early binding.
+ when we achieve PolyMorphism trough method overriding then it is called dynamic binding or run time PolyMorphism or
+ late binding.
+ Why we should use PolyMorphism:
+ 1) Cleaner code.
+ 2) We never prefer to change the existing code if we want to improve something we always want to create new methods
+ and new classes .we can call these methods using the parent classes variable/reference.
+ 3)we can call multiple methods from many classes with the help of a single variable.Like we can create the array of
+   objects and with the help of a loop will abe a ble to call all the methods from all the classes
+   How cam we  PolyMorphism:
+   1)Create a parent child relationship.
+   2) Override the methods in the child classes.
+   3) Create the array of all the Child classs objects and with the help of loop you can call all the methods from all
+     the methods from all the child classes.
+     Rules:
+      1. All the rules that apply for overriding also apply for the polymorphism.
+        2.We can store the object of the child class inside a variable of type parent class.
+          But we cannot do the reverse.
+        3.We can also create arrays of type parent and they can hold object of child class.
