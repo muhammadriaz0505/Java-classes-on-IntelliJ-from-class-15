@@ -24,10 +24,6 @@ public class Employee {
 class Manager extends Employee{
 
 
-
-
-
-
     void calculatePrintSalary(){
         System.out.println((baseSalary*4)+20000);
     }
