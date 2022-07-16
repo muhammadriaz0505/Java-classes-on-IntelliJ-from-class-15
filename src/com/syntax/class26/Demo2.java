@@ -16,8 +16,9 @@ public class Demo2 {
         System.out.println(arrayList.get(2));//gets back the elements from the list
         for(int i=0; i<arrayList.size(); i++){
             System.out.println(arrayList.get(i));
+
         }
 
-
+        System.out.println(arrayList.size());
     }
 }
