@@ -12,7 +12,7 @@ public class Homework3 {
 
         words.add("Hope");
         words.add("Play");
-        words.add("camel");
+        words.add("vibe");
         words.add("Games");
         System.out.println("words = " + words);
         for(int i=0; i<words.size(); i++){
