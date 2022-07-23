@@ -1,6 +1,7 @@
 package com.syntax.class28;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.TreeSet;
 
 public class Homework2 {
@@ -19,12 +20,15 @@ public class Homework2 {
         System.out.println(countries);
         System.out.println("*********************************************");
         for(String country:countries){
-            System.out.println(country+" ");
+            System.out.print(country+" ");
 
         }
-        System.out.println("******************************************");
-        for(int i=0; i<countries.size(); i++){
+        System.out.println();
+        Iterator<String> it=countries.iterator();
+        while (it.hasNext()){
+            String outPut=it.next();
+            System.out.print(outPut+" ");
         }
-        System.out.println(countries);
+
     }
 }
