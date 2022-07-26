@@ -37,5 +37,15 @@
         <jarDirectory url="file://$USER_HOME$/Downloads/poi-bin-5.2.2-20220312/poi-bin-5.2.2/ooxml-lib" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/Downloads/poi-bin-5.2.2-20220312/poi-bin-5.2.2/ooxml-lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/Downloads/poi-bin-5.2.2-20220312/poi-bin-5.2.2/ooxml-lib" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>
